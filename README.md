@@ -24,3 +24,17 @@ Open up test.xcodeproj and click run.  In the xcode terminal it will ask for an 
 >To see the output for the API / Web call, make the filename BASE64API
 
 
+
+
+
+Dependencies and Included Packages / Headers
+#include <stdio.h>
+#include <iostream>
+#include <fstream>
+#include <curl/curl.h>
+#include <string>
+#include <string.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <condition_variable>
+
