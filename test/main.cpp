@@ -11,12 +11,12 @@
 using namespace std;
 
 int main() {
-    string fileName;
-    string imageURL;
+    string file_name;
+    string image_url;
     cout << "Enter your image url...\n";
-    cin >> imageURL;
+    cin >> image_url;
     cout << "Enter a file name...\n";
-    cin >> fileName;
-    getImageFromURL(imageURL.c_str(), fileName);
+    cin >> file_name;
+    get_image(image_url.c_str(), file_name);
     return 0;
 }

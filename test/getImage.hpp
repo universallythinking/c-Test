@@ -23,7 +23,5 @@
 using namespace std;
 
 
-string encode_image(char *data,
-size_t input_length,
-                    size_t output_length);
-void getImageFromURL(const char * image_url, string file_name);
+string encode_image(char *data, size_t input_length, size_t output_length, bool from_api);
+void get_image(const char * image_url, string file_name);
