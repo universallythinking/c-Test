@@ -3,7 +3,7 @@
 
 ###A few notes
 
-I was able to create a DLL for this but unable to include it in the project.  I will update this with the error I received.
+I was able to create a DLL (and .LIB) for this but unable to include it in the project.  I will update this with the error I received.
 > Something like invalid type or version
 
 This test application should be run on a Mac
